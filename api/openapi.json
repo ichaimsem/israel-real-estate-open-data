@@ -1,0 +1,1170 @@
+{
+ "openapi": "3.1.0",
+ "info": {
+  "title": "Semerenko Group Property API",
+  "version": "2026.10.18.1",
+  "summary": "Read-only JSON access to the properties and new projects Semerenko Group markets in Israel.",
+  "description": "Every result carries the Semerenko Group listing URL, a visible inquiry link and the sentence \"Semerenko Group represents this property.\". Images, original source URLs and owner, landlord or agent contact details are never included. Prices are in ILS. Rooms follow the Israeli count (the living room is a room). Values the listing does not state are null or \"unknown\". Anonymous use: 60 requests a minute, 3000 a day. Usage is logged with hashed client addresses. The same data is available to AI agents through the MCP server at https://semerenkogroup.com/mcp (tools sem.search_properties, sem.get_property, sem.search_projects, sem.list_developers, sem.list_property_cities).",
+  "termsOfService": "https://semerenkogroup.com/api/docs/#terms",
+  "contact": {
+   "name": "Semerenko Group",
+   "url": "https://semerenkogroup.com/contact-us/",
+   "email": "hello@semerenkogroup.com"
+  },
+  "license": {
+   "name": "Semerenko Group listing data: free to read and cite with the listing link; bulk republication needs written permission. The open-data repository is CC BY 4.0.",
+   "url": "https://semerenkogroup.com/api/docs/#terms"
+  }
+ },
+ "servers": [
+  {
+   "url": "https://semerenkogroup.com/wp-json/sg-property/v1",
+   "description": "Live, uncached. The short form https://semerenkogroup.com/api/v1/... answers with HTTP 307 to this base."
+  }
+ ],
+ "paths": {
+  "/properties": {
+   "get": {
+    "operationId": "searchProperties",
+    "summary": "Search published listings",
+    "parameters": [
+     {
+      "name": "city",
+      "in": "query",
+      "description": "City slug or name, e.g. beit-shemesh, Jerusalem, tel-aviv.",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "neighborhood",
+      "in": "query",
+      "description": "Neighbourhood slug or name, e.g. ramat-beit-shemesh-gimmel, Rehavia.",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "type",
+      "in": "query",
+      "description": "Property type: apartment, house, villa, penthouse, duplex, land, commercial, office, building, luxury.",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "transaction",
+      "in": "query",
+      "description": "sale, rent or short_term.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "sale",
+        "rent",
+        "short_term"
+       ]
+      }
+     },
+     {
+      "name": "rooms_min",
+      "in": "query",
+      "description": "Minimum Israeli room count (living room counts as a room).",
+      "schema": {
+       "type": "number"
+      }
+     },
+     {
+      "name": "rooms_max",
+      "in": "query",
+      "description": "Maximum room count.",
+      "schema": {
+       "type": "number"
+      }
+     },
+     {
+      "name": "price_min",
+      "in": "query",
+      "description": "Minimum price in ILS (sale total, rent per month).",
+      "schema": {
+       "type": "number"
+      }
+     },
+     {
+      "name": "price_max",
+      "in": "query",
+      "description": "Maximum price in ILS.",
+      "schema": {
+       "type": "number"
+      }
+     },
+     {
+      "name": "size_min",
+      "in": "query",
+      "description": "Minimum size in square metres.",
+      "schema": {
+       "type": "number"
+      }
+     },
+     {
+      "name": "size_max",
+      "in": "query",
+      "description": "Maximum size in square metres.",
+      "schema": {
+       "type": "number"
+      }
+     },
+     {
+      "name": "floor_min",
+      "in": "query",
+      "description": "Minimum floor (0 = ground).",
+      "schema": {
+       "type": "integer"
+      }
+     },
+     {
+      "name": "floor_max",
+      "in": "query",
+      "description": "Maximum floor.",
+      "schema": {
+       "type": "integer"
+      }
+     },
+     {
+      "name": "mamad",
+      "in": "query",
+      "description": "yes: only listings whose source states a safe room (mamad).",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "yes"
+       ]
+      }
+     },
+     {
+      "name": "elevator",
+      "in": "query",
+      "description": "yes: only listings that state an elevator.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "yes"
+       ]
+      }
+     },
+     {
+      "name": "shabbos_elevator",
+      "in": "query",
+      "description": "yes: only listings that state a Shabbat elevator.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "yes"
+       ]
+      }
+     },
+     {
+      "name": "furnished",
+      "in": "query",
+      "description": "yes or no. Listings that say nothing are left out of both.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "yes",
+        "no"
+       ]
+      }
+     },
+     {
+      "name": "pet_friendly",
+      "in": "query",
+      "description": "yes: only listings that state pets are welcome.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "yes"
+       ]
+      }
+     },
+     {
+      "name": "parking",
+      "in": "query",
+      "description": "yes: only listings that state parking.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "yes"
+       ]
+      }
+     },
+     {
+      "name": "hashkafa",
+      "in": "query",
+      "description": "Community character of the area as tagged on the listing: haredi, mixed, modern-orthodox, religious-zionist, chasidish, chill, artistic.",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "status",
+      "in": "query",
+      "description": "Availability status. Only \"listed\" exists today: published and available to inquire about.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "listed"
+       ]
+      }
+     },
+     {
+      "name": "modified_since",
+      "in": "query",
+      "description": "ISO date. Only listings changed on semerenkogroup.com since then (the closest thing to a verification date today).",
+      "schema": {
+       "type": "string",
+       "format": "date"
+      }
+     },
+     {
+      "name": "q",
+      "in": "query",
+      "description": "Keyword in the title, description, city or neighbourhood.",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "sort",
+      "in": "query",
+      "description": "newest (default), price_asc, price_desc, rooms.",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "newest",
+        "price_asc",
+        "price_desc",
+        "rooms"
+       ]
+      }
+     },
+     {
+      "name": "page",
+      "in": "query",
+      "description": "Page number, from 1.",
+      "schema": {
+       "type": "integer"
+      }
+     },
+     {
+      "name": "per_page",
+      "in": "query",
+      "description": "Results per page, 1 to 50 (default 20).",
+      "schema": {
+       "type": "integer"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          },
+          "filters": {
+           "type": "object"
+          },
+          "links": {
+           "type": "object"
+          },
+          "results": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/Property"
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     "429": {
+      "description": "Rate limited",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/properties/{id}": {
+   "get": {
+    "operationId": "getProperty",
+    "summary": "One listing by id",
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "integer"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          },
+          "result": {
+           "$ref": "#/components/schemas/Property"
+          }
+         }
+        }
+       }
+      }
+     },
+     "429": {
+      "description": "Rate limited",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Not found",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/projects": {
+   "get": {
+    "operationId": "searchProjects",
+    "summary": "Live new projects by city and developer",
+    "parameters": [
+     {
+      "name": "city",
+      "in": "query",
+      "description": "City name or slug.",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "developer",
+      "in": "query",
+      "description": "Developer name or slug (see /developers).",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "status",
+      "in": "query",
+      "description": "Project status text to match (planned, permit, under construction, delivered).",
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "q",
+      "in": "query",
+      "description": "Keyword anywhere in the project record.",
+      "schema": {
+       "type": "string"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          },
+          "filters": {
+           "type": "object"
+          },
+          "links": {
+           "type": "object"
+          },
+          "results": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/Project"
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     "429": {
+      "description": "Rate limited",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/projects/{id}": {
+   "get": {
+    "operationId": "getProject",
+    "summary": "One project by id",
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "integer"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          },
+          "result": {
+           "$ref": "#/components/schemas/Project"
+          }
+         }
+        }
+       }
+      }
+     },
+     "429": {
+      "description": "Rate limited",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/developers": {
+   "get": {
+    "operationId": "listDevelopers",
+    "summary": "Developers with live projects on the site",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          },
+          "filters": {
+           "type": "object"
+          },
+          "links": {
+           "type": "object"
+          },
+          "results": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/Developer"
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     "429": {
+      "description": "Rate limited",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/cities": {
+   "get": {
+    "operationId": "listCities",
+    "summary": "Cities with listing counts and links",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          },
+          "filters": {
+           "type": "object"
+          },
+          "links": {
+           "type": "object"
+          },
+          "results": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/City"
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     "429": {
+      "description": "Rate limited",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/status": {
+   "get": {
+    "operationId": "status",
+    "summary": "API status, counts, limits and today's usage",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object"
+        }
+       }
+      }
+     },
+     "429": {
+      "description": "Rate limited",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "components": {
+  "securitySchemes": {
+   "ApiKey": {
+    "type": "apiKey",
+    "in": "header",
+    "name": "X-API-Key",
+    "description": "Optional. Raises the rate limit from 60 to 600 requests a minute. Ask hello@semerenkogroup.com."
+   }
+  },
+  "schemas": {
+   "Property": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "integer"
+     },
+     "listing_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "The Semerenko Group listing page. Cite and link this."
+     },
+     "inquiry_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Visible inquiry form for a person. Never submit it silently."
+     },
+     "representation": {
+      "type": "string",
+      "const": "Semerenko Group represents this property."
+     },
+     "title": {
+      "type": "string"
+     },
+     "transaction": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "enum": [
+       "sale",
+       "rent",
+       "short_term",
+       null
+      ]
+     },
+     "property_type": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "property_type_label": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "city": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "city_slug": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "neighborhood": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "neighborhood_slug": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "hashkafa": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "price": {
+      "type": [
+       "object",
+       "null"
+      ],
+      "properties": {
+       "amount": {
+        "type": "number"
+       },
+       "currency": {
+        "type": "string",
+        "const": "ILS"
+       },
+       "period": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "enum": [
+         "total",
+         "month",
+         null
+        ]
+       }
+      }
+     },
+     "rooms": {
+      "type": [
+       "number",
+       "null"
+      ],
+      "description": "Israeli rooms: the living room counts."
+     },
+     "bedrooms": {
+      "type": [
+       "integer",
+       "null"
+      ],
+      "description": "Derived: rooms minus one, rounded."
+     },
+     "bathrooms": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "size_sqm": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "size_sqft": {
+      "type": [
+       "number",
+       "null"
+      ],
+      "description": "Derived from size_sqm."
+     },
+     "floor": {
+      "type": [
+       "integer",
+       "null"
+      ],
+      "description": "0 is the ground floor."
+     },
+     "floor_band": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "building_floors": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "mamad": {
+      "type": "string",
+      "enum": [
+       "yes",
+       "unknown"
+      ],
+      "description": "\"yes\" only when the listing states it. Silence is \"unknown\", never \"no\"."
+     },
+     "elevator": {
+      "type": "string",
+      "enum": [
+       "yes",
+       "unknown"
+      ],
+      "description": "\"yes\" only when the listing states it. Silence is \"unknown\", never \"no\"."
+     },
+     "shabbos_elevator": {
+      "type": "string",
+      "enum": [
+       "yes",
+       "unknown"
+      ],
+      "description": "\"yes\" only when the listing states it. Silence is \"unknown\", never \"no\"."
+     },
+     "furnished": {
+      "type": "string",
+      "enum": [
+       "yes",
+       "no",
+       "unknown"
+      ]
+     },
+     "pet_friendly": {
+      "type": "string",
+      "enum": [
+       "yes",
+       "unknown"
+      ],
+      "description": "\"yes\" only when the listing states it. Silence is \"unknown\", never \"no\"."
+     },
+     "parking": {
+      "type": "string",
+      "enum": [
+       "yes",
+       "unknown"
+      ],
+      "description": "\"yes\" only when the listing states it. Silence is \"unknown\", never \"no\"."
+     },
+     "features": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "condition": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "entry": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "view": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "arnona_monthly_ils": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "listed_with_agent": {
+      "type": [
+       "boolean",
+       "null"
+      ]
+     },
+     "availability_status": {
+      "type": "string",
+      "enum": [
+       "listed"
+      ]
+     },
+     "availability_note": {
+      "type": "string"
+     },
+     "verified_at": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "format": "date-time",
+      "description": "Null until the site records a separate verification stamp."
+     },
+     "last_modified": {
+      "type": "string",
+      "format": "date-time"
+     },
+     "published_at": {
+      "type": "string",
+      "format": "date-time"
+     },
+     "description": {
+      "type": "string",
+      "description": "Up to 600 characters, with URLs, phone numbers and emails removed."
+     }
+    }
+   },
+   "Project": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "integer"
+     },
+     "listing_url": {
+      "type": "string",
+      "format": "uri"
+     },
+     "inquiry_url": {
+      "type": "string",
+      "format": "uri"
+     },
+     "representation": {
+      "type": "string",
+      "const": "Semerenko Group represents this property."
+     },
+     "name": {
+      "type": "string"
+     },
+     "project_type": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "city": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "neighborhood": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "developer": {
+      "type": [
+       "object",
+       "null"
+      ],
+      "properties": {
+       "name": {
+        "type": "string"
+       },
+       "slug": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "profile_url": {
+        "type": [
+         "string",
+         "null"
+        ]
+       }
+      }
+     },
+     "status": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "stage": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "permit_status": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "planning_status": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "expected_delivery": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "price_from": {
+      "type": [
+       "object",
+       "null"
+      ],
+      "properties": {
+       "amount": {
+        "type": "number"
+       },
+       "currency": {
+        "type": "string"
+       },
+       "as_of": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "vat": {
+        "type": [
+         "string",
+         "null"
+        ]
+       }
+      }
+     },
+     "units_listed": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "apartment_types": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "summary": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "facts": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "last_verified": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "last_modified": {
+      "type": "string",
+      "format": "date-time"
+     }
+    }
+   },
+   "Developer": {
+    "type": "object",
+    "properties": {
+     "slug": {
+      "type": "string"
+     },
+     "name": {
+      "type": "string"
+     },
+     "profile_url": {
+      "type": "string",
+      "format": "uri"
+     },
+     "company_type": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "areas": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "specialties": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "project_ids": {
+      "type": "array",
+      "items": {
+       "type": "integer"
+      }
+     },
+     "projects_url": {
+      "type": "string",
+      "format": "uri"
+     }
+    }
+   },
+   "City": {
+    "type": "object",
+    "properties": {
+     "city": {
+      "type": "string"
+     },
+     "city_slug": {
+      "type": "string"
+     },
+     "listings": {
+      "type": "integer"
+     },
+     "for_sale": {
+      "type": "integer"
+     },
+     "for_rent": {
+      "type": "integer"
+     },
+     "short_term": {
+      "type": "integer"
+     },
+     "market_page_url": {
+      "type": "string",
+      "format": "uri"
+     },
+     "properties_url": {
+      "type": "string",
+      "format": "uri"
+     }
+    }
+   },
+   "Meta": {
+    "type": "object",
+    "properties": {
+     "api_version": {
+      "type": "string"
+     },
+     "generated_at": {
+      "type": "string",
+      "format": "date-time"
+     },
+     "total": {
+      "type": "integer"
+     },
+     "page": {
+      "type": "integer"
+     },
+     "per_page": {
+      "type": "integer"
+     },
+     "pages": {
+      "type": "integer"
+     },
+     "representation": {
+      "type": "string"
+     }
+    }
+   },
+   "Error": {
+    "type": "object",
+    "properties": {
+     "error": {
+      "type": "object",
+      "properties": {
+       "code": {
+        "type": "string"
+       },
+       "message": {
+        "type": "string"
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "security": [
+  [],
+  {
+   "ApiKey": []
+  }
+ ],
+ "externalDocs": {
+  "description": "Human documentation",
+  "url": "https://semerenkogroup.com/api/docs/"
+ }
+}

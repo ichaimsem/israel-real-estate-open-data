@@ -1,0 +1,513 @@
+{
+ "name": "israel-real-estate-open-data",
+ "title": "Israel real estate open data (Semerenko Group)",
+ "description": "Hebrew real estate glossary, official city and region lists, aggregated recorded-sale figures, sourced market facts and the Property API specification. Built from the Semerenko Group registries without manual steps.",
+ "homepage": "https://github.com/ichaimsem/israel-real-estate-open-data",
+ "version": "2026-10-18",
+ "created": "2026-10-18T06:20:12Z",
+ "licenses": [
+  {
+   "name": "CC-BY-4.0",
+   "path": "https://creativecommons.org/licenses/by/4.0/",
+   "title": "Creative Commons Attribution 4.0"
+  }
+ ],
+ "contributors": [
+  {
+   "title": "Semerenko Group",
+   "path": "https://semerenkogroup.com",
+   "role": "publisher"
+  }
+ ],
+ "resources": [
+  {
+   "name": "hebrew-real-estate-terms",
+   "path": "data/glossary/hebrew-real-estate-terms.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "title": "Hebrew real estate terms with English definitions",
+   "licenses": [
+    {
+     "name": "CC-BY-4.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Semerenko Group glossary pages",
+     "path": "https://semerenkogroup.com/israel-real-estate-glossary/"
+    },
+    {
+     "title": "Semerenko Group glossary pages",
+     "path": "https://semerenkogroup.com/rental-glossary/"
+    },
+    {
+     "title": "Semerenko Group glossary pages",
+     "path": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/"
+    },
+    {
+     "title": "Semerenko Group glossary pages",
+     "path": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "term_latin",
+      "type": "string",
+      "description": "Transliterated or English term"
+     },
+     {
+      "name": "term_hebrew",
+      "type": "string",
+      "description": "Hebrew spelling when the page gives it"
+     },
+     {
+      "name": "english_gloss",
+      "type": "string",
+      "description": "Short English equivalent"
+     },
+     {
+      "name": "definition",
+      "type": "string",
+      "description": "Definition as published on semerenkogroup.com"
+     },
+     {
+      "name": "category",
+      "type": "string",
+      "description": "Page the term comes from"
+     },
+     {
+      "name": "source_url",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "retrieved",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "licence",
+      "type": "string",
+      "description": ""
+     }
+    ]
+   }
+  },
+  {
+   "name": "cities",
+   "path": "data/places/cities.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "title": "Israeli cities and settlements with official codes, Hebrew and English names",
+   "licenses": [
+    {
+     "name": "other-open",
+     "title": "data.gov.il open licence (license_id other-open), dataset citiesandsettelments, Population and Immigration Authority"
+    }
+   ],
+   "sources": [
+    {
+     "title": "data.gov.il: רשימת ישובים בישראל (citiesandsettelments)",
+     "path": "https://data.gov.il/dataset/citiesandsettelments"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "place_id",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "official_code",
+      "type": "string",
+      "description": "Settlement code of the Population and Immigration Authority"
+     },
+     {
+      "name": "name_he",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "name_en",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "aliases",
+      "type": "string",
+      "description": "Semerenko Group English spellings, semicolon separated"
+     },
+     {
+      "name": "slug",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "region_code",
+      "type": "string",
+      "description": "Region (nafa) code from the same dataset"
+     },
+     {
+      "name": "region_name_he",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "lat",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "lon",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "page_url",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "source_url",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "licence",
+      "type": "string",
+      "description": ""
+     }
+    ]
+   }
+  },
+  {
+   "name": "regions",
+   "path": "data/places/regions.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "title": "Regions (nafot) from the settlements dataset",
+   "licenses": [
+    {
+     "name": "other-open",
+     "title": "data.gov.il open licence (license_id other-open), dataset citiesandsettelments, Population and Immigration Authority"
+    }
+   ],
+   "sources": [
+    {
+     "title": "data.gov.il: רשימת ישובים בישראל (citiesandsettelments)",
+     "path": "https://data.gov.il/dataset/citiesandsettelments"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "place_id",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "official_code",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "name_he",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "name_en",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "source_url",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "licence",
+      "type": "string",
+      "description": ""
+     }
+    ]
+   }
+  },
+  {
+   "name": "neighborhoods",
+   "path": "data/places/neighborhoods.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "title": "Neighbourhoods as used on semerenkogroup.com (not an official list)",
+   "licenses": [
+    {
+     "name": "CC-BY-4.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Semerenko Group location taxonomy",
+     "path": "https://semerenkogroup.com/location/"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "place_id",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "name_en",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "name_he",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "slug",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "city_official_code",
+      "type": "string",
+      "description": "Official code of the parent city"
+     },
+     {
+      "name": "city_name_en",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "page_url",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": ""
+     }
+    ]
+   }
+  },
+  {
+   "name": "recorded-sales-by-city-quarter",
+   "path": "data/market/recorded-sales-by-city-quarter.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "title": "Recorded home sales by city and quarter: deal counts, median and quartile prices (ILS)",
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "title": "Aggregates by Semerenko Group; underlying records: Israel Tax Authority real-estate transaction records, published as public information and distributed through GovMap (spatial layer 16). Aggregates only: no individual deal is republished here."
+    }
+   ],
+   "sources": [
+    {
+     "title": "GovMap layer 16, Israel Tax Authority transaction records",
+     "path": "https://www.govmap.gov.il/"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "city_official_code",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "city_name_en",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "quarter",
+      "type": "string",
+      "description": "Calendar quarter of the recorded deal date"
+     },
+     {
+      "name": "deals",
+      "type": "string",
+      "description": "Number of recorded deals in the cell (20 or more)"
+     },
+     {
+      "name": "median_price_ils",
+      "type": "string",
+      "description": "Median recorded price"
+     },
+     {
+      "name": "p25_price_ils",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "p75_price_ils",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "median_price_per_sqm_ils",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "median_sqm",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "median_rooms",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "property_class",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "method",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "licence_note",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "built",
+      "type": "string",
+      "description": ""
+     }
+    ]
+   }
+  },
+  {
+   "name": "site-facts",
+   "path": "data/facts/site-facts.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "title": "Sourced facts behind the Semerenko Group wiki and market pages (Bank of Israel, CBS, Tax Authority and other official sources)",
+   "licenses": [
+    {
+     "name": "CC-BY-4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "fact_id",
+      "type": "string",
+      "description": "Stable identifier in the Semerenko Group fact registry"
+     },
+     {
+      "name": "value",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "text_value",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "unit",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "status",
+      "type": "string",
+      "description": "verified or historical"
+     },
+     {
+      "name": "source_kind",
+      "type": "string",
+      "description": "primary (official publisher) or supplier"
+     },
+     {
+      "name": "source_url",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "source_published_at",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "as_of",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "effective_from",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "effective_to",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "note",
+      "type": "string",
+      "description": ""
+     },
+     {
+      "name": "used_on_pages",
+      "type": "string",
+      "description": "Pages on semerenkogroup.com that render the fact"
+     },
+     {
+      "name": "licence",
+      "type": "string",
+      "description": ""
+     }
+    ]
+   }
+  },
+  {
+   "name": "property-api-openapi",
+   "path": "api/openapi.json",
+   "format": "json",
+   "mediatype": "application/json",
+   "title": "OpenAPI 3.1 specification of the Semerenko Group Property API",
+   "licenses": [
+    {
+     "name": "CC-BY-4.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Live specification",
+     "path": "https://semerenkogroup.com/api/openapi.json"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "built": "2026-10-18T06:20:12Z",
+ "version": "2026-10-18",
+ "counts": {
+  "glossary_terms": 90,
+  "cities": 218,
+  "regions": 25,
+  "neighborhoods": 1458,
+  "market_cells": 391,
+  "market_deals_in_cells": 73563,
+  "market_raw_deals_read": 106736,
+  "facts": 94,
+  "api_paths": 7
+ },
+ "repo": "https://github.com/ichaimsem/israel-real-estate-open-data",
+ "raw": "https://raw.githubusercontent.com/ichaimsem/israel-real-estate-open-data/main/",
+ "files": {
+  "hebrew-real-estate-terms": "https://raw.githubusercontent.com/ichaimsem/israel-real-estate-open-data/main/data/glossary/hebrew-real-estate-terms.csv",
+  "cities": "https://raw.githubusercontent.com/ichaimsem/israel-real-estate-open-data/main/data/places/cities.csv",
+  "regions": "https://raw.githubusercontent.com/ichaimsem/israel-real-estate-open-data/main/data/places/regions.csv",
+  "neighborhoods": "https://raw.githubusercontent.com/ichaimsem/israel-real-estate-open-data/main/data/places/neighborhoods.csv",
+  "recorded-sales-by-city-quarter": "https://raw.githubusercontent.com/ichaimsem/israel-real-estate-open-data/main/data/market/recorded-sales-by-city-quarter.csv",
+  "site-facts": "https://raw.githubusercontent.com/ichaimsem/israel-real-estate-open-data/main/data/facts/site-facts.csv",
+  "property-api-openapi": "https://raw.githubusercontent.com/ichaimsem/israel-real-estate-open-data/main/api/openapi.json"
+ }
+}
