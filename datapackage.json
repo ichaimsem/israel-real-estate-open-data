@@ -474,11 +474,6 @@
       "description": ""
      },
      {
-      "name": "note",
-      "type": "string",
-      "description": ""
-     },
-     {
       "name": "used_on_pages",
       "type": "string",
       "description": "Pages on semerenkogroup.com that render the fact"

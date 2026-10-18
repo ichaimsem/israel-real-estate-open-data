@@ -11,7 +11,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2024-01-01",
   "effective_to": "2024-12-31",
-  "note": "Approximate completions change 2024 versus October2022–September2023; not versus calendar2023.",
   "used_on_pages": "https://semerenkogroup.com/israel-housing-supply-2023-2025-what-the-construction-surge-really-means/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -27,7 +26,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2024-01-01",
   "effective_to": "2024-12-31",
-  "note": "AnnualReport2024chapter8,p7 approximate housing starts. Historical observation.",
   "used_on_pages": "https://semerenkogroup.com/israel-housing-supply-2023-2025-what-the-construction-surge-really-means/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -43,7 +41,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Purchase mortgage ceiling under Directive 329 definitions, not guaranteed approval. Separate statutory classification/document requirements.",
   "used_on_pages": "https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/how-to-find-real-estate-in-israel-online-from-the-usa/;https://semerenkogroup.com/mortgage-mashkanta-israel/;https://semerenkogroup.com/mortgage-mashkanta-israel/bank-of-israel-interest-rate/;https://semerenkogroup.com/mortgage-mashkanta-israel/calculator/;https://semerenkogroup.com/mortgage-mashkanta-israel/israelis-abroad/;https://semerenkogroup.com/mortgage-mashkanta-israel/olim-guide/;https://semerenkogroup.com/real-estate-valuation-in-israel-the-price-gap-nobody-warns-you-about/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -59,7 +56,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Purchase mortgage ceiling under Directive 329 definitions, not guaranteed approval. Separate statutory classification/document requirements.",
   "used_on_pages": "https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/how-to-find-real-estate-in-israel-online-from-the-usa/;https://semerenkogroup.com/mortgage-mashkanta-israel/;https://semerenkogroup.com/mortgage-mashkanta-israel/bank-of-israel-interest-rate/;https://semerenkogroup.com/mortgage-mashkanta-israel/calculator/;https://semerenkogroup.com/mortgage-mashkanta-israel/israelis-abroad/;https://semerenkogroup.com/mortgage-mashkanta-israel/olim-guide/;https://semerenkogroup.com/real-estate-valuation-in-israel-the-price-gap-nobody-warns-you-about/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -75,7 +71,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Purchase mortgage ceiling under Directive 329 definitions, not guaranteed approval. Separate statutory classification/document requirements.",
   "used_on_pages": "https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/how-to-find-real-estate-in-israel-online-from-the-usa/;https://semerenkogroup.com/mortgage-mashkanta-israel/;https://semerenkogroup.com/mortgage-mashkanta-israel/bank-of-israel-interest-rate/;https://semerenkogroup.com/mortgage-mashkanta-israel/calculator/;https://semerenkogroup.com/mortgage-mashkanta-israel/israelis-abroad/;https://semerenkogroup.com/mortgage-mashkanta-israel/olim-guide/;https://semerenkogroup.com/real-estate-valuation-in-israel-the-price-gap-nobody-warns-you-about/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -91,7 +86,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Directive329 standard housing-loan ceiling; statutory exceptions and borrower classification remain.",
   "used_on_pages": "https://semerenkogroup.com/mortgage-mashkanta-israel/;https://semerenkogroup.com/mortgage-mashkanta-israel/bank-of-israel-interest-rate/;https://semerenkogroup.com/mortgage-mashkanta-israel/calculator/;https://semerenkogroup.com/should-i-buy-property-israel-now/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -107,7 +101,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Directive329 standard housing-loan ceiling; statutory exceptions and borrower classification remain.",
   "used_on_pages": "https://semerenkogroup.com/mortgage-mashkanta-israel/;https://semerenkogroup.com/mortgage-mashkanta-israel/bank-of-israel-interest-rate/;https://semerenkogroup.com/mortgage-mashkanta-israel/calculator/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -123,7 +116,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Directive329 standard housing-loan ceiling; statutory exceptions and borrower classification remain.",
   "used_on_pages": "https://semerenkogroup.com/mortgage-mashkanta-israel/;https://semerenkogroup.com/mortgage-mashkanta-israel/bank-of-israel-interest-rate/;https://semerenkogroup.com/mortgage-mashkanta-israel/calculator/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -139,7 +131,6 @@
   "as_of": "2026-10-18",
   "effective_from": "2026-09-03",
   "effective_to": "",
-  "note": "Verified official BOI API source (GetInterest). currentInterest 3.25, lastPublishedDate 2026-09-01, nextInterestDate 2026-10-21 on 2026-10-18. Decision and effective dates remain distinct; the API decision date is not an asserted effective date.",
   "used_on_pages": "https://semerenkogroup.com/;https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/israel-2026-official-data-release-calendar-for-rates-and-inflation/;https://semerenkogroup.com/israel-real-estate-guide-2026-rates-taxes-net-yields/;https://semerenkogroup.com/location/;https://semerenkogroup.com/location/city/beit-shemesh/;https://semerenkogroup.com/location/city/jerusalem/;https://semerenkogroup.com/location/city/tel-aviv-yafo/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -155,7 +146,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "nextInterestDate from the BOI GetInterest API: date of the next scheduled interest-rate decision.",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -171,7 +161,6 @@
   "as_of": "2026-10-18",
   "effective_from": "2026-09-03",
   "effective_to": "",
-  "note": "Derived current policy rate 3.25 + official 1.5 percentage-point prime margin; dependent on boi.policy_rate.",
   "used_on_pages": "https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/mortgage-mashkanta-israel/;https://semerenkogroup.com/mortgage-mashkanta-israel/bank-of-israel-interest-rate/;https://semerenkogroup.com/mortgage-mashkanta-israel/calculator/;https://semerenkogroup.com/real-estate-valuation-in-israel-the-price-gap-nobody-warns-you-about/;https://semerenkogroup.com/should-i-buy-property-israel-now/;https://semerenkogroup.com/ultimate-guide-to-buying-real-estate-in-israel-for-foreigners/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -187,7 +176,6 @@
   "as_of": "2026-10-18",
   "effective_from": "2026-09-01",
   "effective_to": "",
-  "note": "CBS consumer price index, general (code 120010), month 2026-09. Base: 2024 ממוצע (Hebrew baseDesc as served). Source: Central Bureau of Statistics (CBS), Consumer price index, accessed 2026-10-18, available online: https://api.cbs.gov.il/index/data/price?id=120010&format=json&download=false&last=3, copied and distributed as is according to the CBS license at https://www.cbs.gov.il/en/Pages/Enduser-license.aspx",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -203,7 +191,6 @@
   "as_of": "2026-10-18",
   "effective_from": "2026-09-01",
   "effective_to": "",
-  "note": "Change against the previous month, as served by CBS. CBS consumer price index, general (code 120010), month 2026-09. Base: 2024 ממוצע (Hebrew baseDesc as served). Source: Central Bureau of Statistics (CBS), Consumer price index, accessed 2026-10-18, available online: https://api.cbs.gov.il/index/data/price?id=120010&format=json&download=false&last=3, copied and distributed as is according to the CBS license at https://www.cbs.gov.il/en/Pages/Enduser-license.aspx",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -219,7 +206,6 @@
   "as_of": "2026-10-18",
   "effective_from": "2026-09-01",
   "effective_to": "",
-  "note": "Change against the same month a year earlier, as served by CBS. CBS consumer price index, general (code 120010), month 2026-09. Base: 2024 ממוצע (Hebrew baseDesc as served). Source: Central Bureau of Statistics (CBS), Consumer price index, accessed 2026-10-18, available online: https://api.cbs.gov.il/index/data/price?id=120010&format=json&download=false&last=3, copied and distributed as is according to the CBS license at https://www.cbs.gov.il/en/Pages/Enduser-license.aspx",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -235,7 +221,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Latest month the CBS API serves for the consumer price index, general (code 120010) on 2026-10-18.",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -251,7 +236,6 @@
   "as_of": "2026-10-18",
   "effective_from": "2026-07-01",
   "effective_to": "",
-  "note": "CBS housing price index (apartment prices, code 40010), month 2026-07. Base: 1993 ממוצע (Hebrew baseDesc as served). Source: Central Bureau of Statistics (CBS), Housing prices index, accessed 2026-10-18, available online: https://api.cbs.gov.il/index/data/price?id=40010&format=json&download=false&last=3, copied and distributed as is according to the CBS license at https://www.cbs.gov.il/en/Pages/Enduser-license.aspx",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -267,7 +251,6 @@
   "as_of": "2026-10-18",
   "effective_from": "2026-07-01",
   "effective_to": "",
-  "note": "Change against the previous month, as served by CBS. CBS housing price index (apartment prices, code 40010), month 2026-07. Base: 1993 ממוצע (Hebrew baseDesc as served). Source: Central Bureau of Statistics (CBS), Housing prices index, accessed 2026-10-18, available online: https://api.cbs.gov.il/index/data/price?id=40010&format=json&download=false&last=3, copied and distributed as is according to the CBS license at https://www.cbs.gov.il/en/Pages/Enduser-license.aspx",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -283,7 +266,6 @@
   "as_of": "2026-10-18",
   "effective_from": "2026-07-01",
   "effective_to": "",
-  "note": "Change against the same month a year earlier, as served by CBS. CBS housing price index (apartment prices, code 40010), month 2026-07. Base: 1993 ממוצע (Hebrew baseDesc as served). Source: Central Bureau of Statistics (CBS), Housing prices index, accessed 2026-10-18, available online: https://api.cbs.gov.il/index/data/price?id=40010&format=json&download=false&last=3, copied and distributed as is according to the CBS license at https://www.cbs.gov.il/en/Pages/Enduser-license.aspx",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -299,7 +281,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Latest month the CBS API serves for the housing price index (apartment prices, code 40010) on 2026-10-18.",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -315,7 +296,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2026-04-01",
   "effective_to": "2026-06-30",
-  "note": "CBS table4.9 all dwellings national monthly mean; SE15; composition changes and imputation mean this is not a listing quote.",
   "used_on_pages": "https://semerenkogroup.com/average-rent-and-costs-in-israel/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -331,7 +311,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2026-04-01",
   "effective_to": "2026-06-30",
-  "note": "Tel Aviv city all room sizes monthly mean; SE59.",
   "used_on_pages": "https://semerenkogroup.com/average-rent-and-costs-in-israel/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -347,7 +326,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2026-04-01",
   "effective_to": "2026-06-30",
-  "note": "Tel Aviv city one-to-two-room monthly mean; SE72. This cohort is broader than studios.",
   "used_on_pages": "https://semerenkogroup.com/%f0%9f%8f%a1-studio-apartment-rentals-in-tel-aviv-prices-locations-best-platforms/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -363,7 +341,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2025-10-01",
   "effective_to": "2025-12-31",
-  "note": "Table2.2 historical 2025Q4 district mean,1181 transactions. ThousandILS source converted toILS; mix not price index.",
   "used_on_pages": "https://semerenkogroup.com/the-most-affordable-cities-to-buy-a-home-in-israel-2025/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -379,7 +356,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2025-10-01",
   "effective_to": "2025-12-31",
-  "note": "Table2.2 historical 2025Q4 district mean,2679 transactions. ThousandILS converted toILS; mix not price index.",
   "used_on_pages": "https://semerenkogroup.com/the-most-affordable-cities-to-buy-a-home-in-israel-2025/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -395,7 +371,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Representative foreign-currency units per 1 ILS; BOI unit/currentExchangeRate. Source observation date, not a retail quote.",
   "used_on_pages": "https://semerenkogroup.com/;https://semerenkogroup.com/location/;https://semerenkogroup.com/location/city/beit-shemesh/;https://semerenkogroup.com/location/city/jerusalem/;https://semerenkogroup.com/location/city/tel-aviv-yafo/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -411,7 +386,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Representative foreign-currency units per 1 ILS; BOI unit/currentExchangeRate. Source observation date, not a retail quote.",
   "used_on_pages": "https://semerenkogroup.com/;https://semerenkogroup.com/location/;https://semerenkogroup.com/location/city/beit-shemesh/;https://semerenkogroup.com/location/city/jerusalem/;https://semerenkogroup.com/location/city/tel-aviv-yafo/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -427,7 +401,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Representative foreign-currency units per 1 ILS; BOI unit/currentExchangeRate. Source observation date, not a retail quote.",
   "used_on_pages": "https://semerenkogroup.com/;https://semerenkogroup.com/location/;https://semerenkogroup.com/location/city/beit-shemesh/;https://semerenkogroup.com/location/city/jerusalem/;https://semerenkogroup.com/location/city/tel-aviv-yafo/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -443,7 +416,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Representative foreign-currency units per 1 ILS; BOI unit/currentExchangeRate. Source observation date, not a retail quote.",
   "used_on_pages": "https://semerenkogroup.com/;https://semerenkogroup.com/location/;https://semerenkogroup.com/location/city/beit-shemesh/;https://semerenkogroup.com/location/city/jerusalem/;https://semerenkogroup.com/location/city/tel-aviv-yafo/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -459,7 +431,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Representative foreign-currency units per 1 ILS; BOI unit/currentExchangeRate. Source observation date, not a retail quote.",
   "used_on_pages": "https://semerenkogroup.com/;https://semerenkogroup.com/location/;https://semerenkogroup.com/location/city/beit-shemesh/;https://semerenkogroup.com/location/city/jerusalem/;https://semerenkogroup.com/location/city/tel-aviv-yafo/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -475,7 +446,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Representative foreign-currency units per 1 ILS; BOI unit/currentExchangeRate. Source observation date, not a retail quote.",
   "used_on_pages": "https://semerenkogroup.com/;https://semerenkogroup.com/location/;https://semerenkogroup.com/location/city/beit-shemesh/;https://semerenkogroup.com/location/city/jerusalem/;https://semerenkogroup.com/location/city/tel-aviv-yafo/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -491,7 +461,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Representative BOI rate: ILS per 1 AUD (currentExchangeRate / unit). Source observation date, not a retail quote.",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -507,7 +476,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Representative BOI rate: ILS per 1 CAD (currentExchangeRate / unit). Source observation date, not a retail quote.",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -523,7 +491,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Representative BOI rate: ILS per 1 EUR (currentExchangeRate / unit). Source observation date, not a retail quote.",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -539,7 +506,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Representative BOI rate: ILS per 1 GBP (currentExchangeRate / unit). Source observation date, not a retail quote.",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -555,7 +521,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Representative BOI rate: ILS per 1 USD (currentExchangeRate / unit). Source observation date, not a retail quote.",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -571,7 +536,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Representative BOI rate: ILS per 1 ZAR (currentExchangeRate / unit). Source observation date, not a retail quote.",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -587,7 +551,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "",
-  "note": "Common observation date for the representative exchange rates (BOI lastUpdate).",
   "used_on_pages": "https://semerenkogroup.com/;https://semerenkogroup.com/location/;https://semerenkogroup.com/location/city/beit-shemesh/;https://semerenkogroup.com/location/city/jerusalem/;https://semerenkogroup.com/location/city/tel-aviv-yafo/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -603,7 +566,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Israel Tax Authority Form 161D guide 2026 for the E1 cleanup; page claim was 62.5%",
   "used_on_pages": "https://semerenkogroup.com/israeli-pension-system/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -619,7 +581,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Israel Tax Authority Form 161D guide 2026 for the E1 cleanup; page claim was 57%",
   "used_on_pages": "https://semerenkogroup.com/israeli-pension-system/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -635,7 +596,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Israel Tax Authority Form 161D guide 2026 for the E1 cleanup; dimensionless offset multiplier (Form 161D guide examples read 550,000*32/40*1.35); page claim was ₪1.35",
   "used_on_pages": "https://semerenkogroup.com/israeli-pension-system/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -651,7 +611,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Israel Tax Authority Form 161D guide 2026 for the E1 cleanup; page claim was 67%",
   "used_on_pages": "https://semerenkogroup.com/israeli-pension-system/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -667,7 +626,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was ₪10,113",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -683,7 +641,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was 2%",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -699,7 +656,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was ₪2,762",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -715,7 +671,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was ₪1,838",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -731,7 +686,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was ₪340",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -747,7 +701,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was ₪10,113",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -763,7 +716,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was ₪1,941",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -779,7 +731,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was 5%",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -795,7 +746,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was 50%",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -811,7 +761,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was ₪1,838",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -827,7 +776,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was ₪2,865",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -843,7 +791,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was ₪10,113",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -859,7 +806,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was 50%",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -875,7 +821,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was 2%",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -891,7 +836,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was 5%",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -907,7 +851,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was 5%",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -923,7 +866,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was 50%",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -939,7 +881,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was ₪1,838",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -955,7 +896,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was ₪4,375",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -971,7 +911,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was 5%",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -987,7 +926,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was ₪237",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1003,7 +941,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was ₪4,375",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1019,7 +956,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was ₪2,762",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1035,7 +971,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Verified on 2026-10-18 from Bituach Leumi (btl.gov.il, amounts as of 1 Jan 2026) for the E1 cleanup; page claim was ₪924",
   "used_on_pages": "https://semerenkogroup.com/israel-retirement-age-bituach-leumi/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1051,7 +986,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2017-01-01",
   "effective_to": "",
-  "note": "General mandatory contribution minimum on pensionable salary; higher applicable arrangements may differ.",
   "used_on_pages": "https://semerenkogroup.com/israeli-pension-system/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1067,7 +1001,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2017-01-01",
   "effective_to": "",
-  "note": "General mandatory contribution minimum on pensionable salary; higher applicable arrangements may differ.",
   "used_on_pages": "https://semerenkogroup.com/israeli-pension-system/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1083,7 +1016,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2017-01-01",
   "effective_to": "",
-  "note": "General mandatory contribution minimum on pensionable salary; higher applicable arrangements may differ.",
   "used_on_pages": "https://semerenkogroup.com/israeli-pension-system/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1099,7 +1031,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2017-01-01",
   "effective_to": "",
-  "note": "General mandatory contribution minimum on pensionable salary; higher applicable arrangements may differ.",
   "used_on_pages": "https://semerenkogroup.com/israeli-pension-system/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1115,7 +1046,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Row count of the Licensed real estate brokers register (Ministry of Justice) on data.gov.il, resource a0f56034-88db-4132-8803-854bcdb01ca1, fetched 2026-10-18. Dataset metadata_modified 2026-10-17T16:12:55.308878. Licence: Not stated: CKAN license_id is empty for this dataset and the data.gov.il terms page (https://data.gov.il/pages/terms) returns 404.",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1131,7 +1061,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Row count of the Registered contractors register (Ministry of Housing and Construction) on data.gov.il, resource 4eb61bd6-18cf-4e7c-9f9c-e166dfa0a2d8, fetched 2026-10-18. Dataset metadata_modified 2026-08-17T00:01:20.690316. Licence: Not stated: CKAN license_id is empty for this dataset and the data.gov.il terms page (https://data.gov.il/pages/terms) returns 404.",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1147,7 +1076,6 @@
   "as_of": "2026-10-18",
   "effective_from": "",
   "effective_to": "",
-  "note": "Row count of the Urban renewal declared complexes (Ministry of Housing and Construction) on data.gov.il, resource f65a0daf-f737-49c5-9424-d378d52104f5, fetched 2026-10-18. Dataset metadata_modified 2026-08-15T22:00:15.945824. Licence: CKAN license_id 'other-open' (Other (Open)), no licence URL.",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1163,7 +1091,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2026-01-01",
   "effective_to": "2026-12-31",
-  "note": "Qualifying-pension exemption before relevant prior exempt grants/capitalization reductions; maximum monthly amount shown rounded in official 2026 guide. Not a percentage exemption on every pension.",
   "used_on_pages": "https://semerenkogroup.com/israeli-pension-system/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1179,7 +1106,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2026-01-01",
   "effective_to": "2026-12-31",
-  "note": "Qualifying-pension exemption before relevant prior exempt grants/capitalization reductions; maximum monthly amount shown rounded in official 2026 guide. Not a percentage exemption on every pension.",
   "used_on_pages": "https://semerenkogroup.com/israeli-pension-system/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1195,7 +1121,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2026-01-01",
   "effective_to": "2026-12-31",
-  "note": "Qualifying-pension exemption before relevant prior exempt grants/capitalization reductions; maximum monthly amount shown rounded in official 2026 guide. Not a percentage exemption on every pension.",
   "used_on_pages": "https://semerenkogroup.com/israeli-pension-system/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1211,7 +1136,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "2027-02-10",
-  "note": "Additional dwelling or residential purchase by someone other than an Israeli-resident individual; relief requires assessment. Extension replaces old 31 December 2026 expiry.",
   "used_on_pages": "https://semerenkogroup.com/all-in-cost-buying-israel/;https://semerenkogroup.com/buy-resale-apartment-israel/;https://semerenkogroup.com/buyer-status/;https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/buying-process/;https://semerenkogroup.com/buying-property-retirement-israel/;https://semerenkogroup.com/buying-second-hand-apartment-israel/;https://semerenkogroup.com/buying-through-company-spv-israel/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1227,7 +1151,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "2027-02-10",
-  "note": "Additional dwelling or residential purchase by someone other than an Israeli-resident individual; relief requires assessment. Extension replaces old 31 December 2026 expiry.",
   "used_on_pages": "https://semerenkogroup.com/all-in-cost-buying-israel/;https://semerenkogroup.com/buy-resale-apartment-israel/;https://semerenkogroup.com/buyer-status/;https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/buying-process/;https://semerenkogroup.com/buying-property-retirement-israel/;https://semerenkogroup.com/buying-second-hand-apartment-israel/;https://semerenkogroup.com/buying-through-company-spv-israel/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1243,7 +1166,6 @@
   "as_of": "2026-10-16",
   "effective_from": "",
   "effective_to": "2027-02-10",
-  "note": "October notice extends temporary schedule through 10 February 2027 inclusive; not a new start date.",
   "used_on_pages": "https://semerenkogroup.com/all-in-cost-buying-israel/;https://semerenkogroup.com/buy-resale-apartment-israel/;https://semerenkogroup.com/buyer-status/;https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/buying-process/;https://semerenkogroup.com/buying-property-retirement-israel/;https://semerenkogroup.com/buying-second-hand-apartment-israel/;https://semerenkogroup.com/buying-through-company-spv-israel/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1259,7 +1181,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2025-01-16",
   "effective_to": "2028-01-15",
-  "note": "Regulation 12A qualifying sole dwelling; relief does not apply if full dwelling value exceeds ILS 20,183,565. Eligibility and transitional provisions require assessment.",
   "used_on_pages": "https://semerenkogroup.com/buyer-status/;https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/how-do-purchase-tax-rates-differ-for-residents-vs-non-residents/;https://semerenkogroup.com/mortgage-mashkanta-israel/olim-guide/;https://semerenkogroup.com/mortgage-mashkanta-israel/purchase-tax/;https://semerenkogroup.com/the-definitive-guide-to-israels-real-estate-purchase-tax-mas-rechisha-for-2025/;https://semerenkogroup.com/ultimate-guide-to-buying-real-estate-in-israel-for-foreigners/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1275,7 +1196,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2025-01-16",
   "effective_to": "2028-01-15",
-  "note": "Regulation 12A qualifying sole dwelling; relief does not apply if full dwelling value exceeds ILS 20,183,565. Eligibility and transitional provisions require assessment.",
   "used_on_pages": "https://semerenkogroup.com/buyer-status/;https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/how-do-purchase-tax-rates-differ-for-residents-vs-non-residents/;https://semerenkogroup.com/mortgage-mashkanta-israel/olim-guide/;https://semerenkogroup.com/mortgage-mashkanta-israel/purchase-tax/;https://semerenkogroup.com/the-definitive-guide-to-israels-real-estate-purchase-tax-mas-rechisha-for-2025/;https://semerenkogroup.com/ultimate-guide-to-buying-real-estate-in-israel-for-foreigners/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1291,7 +1211,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2025-01-16",
   "effective_to": "2028-01-15",
-  "note": "Regulation 12A qualifying sole dwelling; relief does not apply if full dwelling value exceeds ILS 20,183,565. Eligibility and transitional provisions require assessment.",
   "used_on_pages": "https://semerenkogroup.com/buyer-status/;https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/how-do-purchase-tax-rates-differ-for-residents-vs-non-residents/;https://semerenkogroup.com/mortgage-mashkanta-israel/;https://semerenkogroup.com/mortgage-mashkanta-israel/olim-guide/;https://semerenkogroup.com/mortgage-mashkanta-israel/purchase-tax/;https://semerenkogroup.com/the-definitive-guide-to-israels-real-estate-purchase-tax-mas-rechisha-for-2025/;https://semerenkogroup.com/ultimate-guide-to-buying-real-estate-in-israel-for-foreigners/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1307,7 +1226,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2025-01-16",
   "effective_to": "2028-01-15",
-  "note": "",
   "used_on_pages": "https://semerenkogroup.com/buyer-status/;https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/how-do-purchase-tax-rates-differ-for-residents-vs-non-residents/;https://semerenkogroup.com/mortgage-mashkanta-israel/olim-guide/;https://semerenkogroup.com/mortgage-mashkanta-israel/purchase-tax/;https://semerenkogroup.com/the-definitive-guide-to-israels-real-estate-purchase-tax-mas-rechisha-for-2025/;https://semerenkogroup.com/ultimate-guide-to-buying-real-estate-in-israel-for-foreigners/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1323,7 +1241,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2025-01-16",
   "effective_to": "2028-01-15",
-  "note": "",
   "used_on_pages": "https://semerenkogroup.com/buyer-status/;https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/how-do-purchase-tax-rates-differ-for-residents-vs-non-residents/;https://semerenkogroup.com/mortgage-mashkanta-israel/;https://semerenkogroup.com/mortgage-mashkanta-israel/olim-guide/;https://semerenkogroup.com/mortgage-mashkanta-israel/purchase-tax/;https://semerenkogroup.com/the-definitive-guide-to-israels-real-estate-purchase-tax-mas-rechisha-for-2025/;https://semerenkogroup.com/ultimate-guide-to-buying-real-estate-in-israel-for-foreigners/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1339,7 +1256,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2025-01-16",
   "effective_to": "2028-01-15",
-  "note": "",
   "used_on_pages": "https://semerenkogroup.com/buyer-status/;https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/how-do-purchase-tax-rates-differ-for-residents-vs-non-residents/;https://semerenkogroup.com/mortgage-mashkanta-israel/;https://semerenkogroup.com/mortgage-mashkanta-israel/olim-guide/;https://semerenkogroup.com/mortgage-mashkanta-israel/purchase-tax/;https://semerenkogroup.com/the-definitive-guide-to-israels-real-estate-purchase-tax-mas-rechisha-for-2025/;https://semerenkogroup.com/ultimate-guide-to-buying-real-estate-in-israel-for-foreigners/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1355,7 +1271,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2025-01-16",
   "effective_to": "2028-01-15",
-  "note": "Eligible Israeli-resident individual sole dwelling; subject to statutory classification.",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1371,7 +1286,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2025-01-16",
   "effective_to": "2028-01-15",
-  "note": "Eligible Israeli-resident individual sole dwelling; subject to statutory classification.",
   "used_on_pages": "https://semerenkogroup.com/all-in-cost-buying-israel/;https://semerenkogroup.com/buy-resale-apartment-israel/;https://semerenkogroup.com/buyer-status/;https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/buying-property-retirement-israel/;https://semerenkogroup.com/buying-second-hand-apartment-israel/;https://semerenkogroup.com/buying-through-company-spv-israel/;https://semerenkogroup.com/checklist-buying-property-israel/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1387,7 +1301,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2025-01-16",
   "effective_to": "2028-01-15",
-  "note": "Eligible Israeli-resident individual sole dwelling; subject to statutory classification.",
   "used_on_pages": "https://semerenkogroup.com/all-in-cost-buying-israel/;https://semerenkogroup.com/buy-resale-apartment-israel/;https://semerenkogroup.com/buyer-status/;https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/buying-property-retirement-israel/;https://semerenkogroup.com/buying-second-hand-apartment-israel/;https://semerenkogroup.com/buying-through-company-spv-israel/;https://semerenkogroup.com/checklist-buying-property-israel/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1403,7 +1316,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2025-01-16",
   "effective_to": "2028-01-15",
-  "note": "Eligible Israeli-resident individual sole dwelling; subject to statutory classification.",
   "used_on_pages": "https://semerenkogroup.com/all-in-cost-buying-israel/;https://semerenkogroup.com/buy-resale-apartment-israel/;https://semerenkogroup.com/buyer-status/;https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/buying-property-retirement-israel/;https://semerenkogroup.com/buying-second-hand-apartment-israel/;https://semerenkogroup.com/buying-through-company-spv-israel/;https://semerenkogroup.com/checklist-buying-property-israel/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1419,7 +1331,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2025-01-16",
   "effective_to": "2028-01-15",
-  "note": "Eligible Israeli-resident individual sole dwelling; subject to statutory classification.",
   "used_on_pages": "https://semerenkogroup.com/all-in-cost-buying-israel/;https://semerenkogroup.com/buy-resale-apartment-israel/;https://semerenkogroup.com/buyer-status/;https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/buying-property-retirement-israel/;https://semerenkogroup.com/buying-second-hand-apartment-israel/;https://semerenkogroup.com/buying-through-company-spv-israel/;https://semerenkogroup.com/checklist-buying-property-israel/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1435,7 +1346,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2025-01-16",
   "effective_to": "2028-01-15",
-  "note": "",
   "used_on_pages": "https://semerenkogroup.com/all-in-cost-buying-israel/;https://semerenkogroup.com/buy-resale-apartment-israel/;https://semerenkogroup.com/buyer-status/;https://semerenkogroup.com/buying-after-aliyah-oleh/;https://semerenkogroup.com/buying-property-retirement-israel/;https://semerenkogroup.com/buying-second-hand-apartment-israel/;https://semerenkogroup.com/buying-through-company-spv-israel/;https://semerenkogroup.com/checklist-buying-property-israel/",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1451,7 +1361,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2025-01-16",
   "effective_to": "2028-01-15",
-  "note": "",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1467,7 +1376,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2025-01-16",
   "effective_to": "2028-01-15",
-  "note": "",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1483,7 +1391,6 @@
   "as_of": "2026-10-16",
   "effective_from": "2025-01-16",
   "effective_to": "2028-01-15",
-  "note": "",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  },
@@ -1499,7 +1406,6 @@
   "as_of": "2026-10-18",
   "effective_from": "2025-01-01",
   "effective_to": "",
-  "note": "Israel Tax Authority interpretation directive 01/2025: VAT rose from 17% to 18% from 1 January 2025 (Hebrew PDF dated 5.12.2024). Added by session F2 for the closing-costs tool.",
   "used_on_pages": "",
   "licence": "CC BY 4.0 for this compilation; each value belongs to the cited official source"
  }
