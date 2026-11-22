@@ -1,62 +1,42 @@
 [
  {
-  "term_latin": "amlat piraon mukdam",
-  "term_hebrew": "עמלת פירעון מוקדם",
-  "english_gloss": "early repayment fee",
-  "definition": "What it costs to pay off a track ahead of schedule. It is not uniform. Prime and variable tracks carry no capitalisation-difference fee, because the bank takes no interest-rate risk on them. Fixed tracks do. And on a CPI-linked track there is an \"average index\" component that applies only if you repay between the 1st and the 15th of the month — repay from the 16th to month-end and it does not apply at all.",
-  "category": "mortgages",
-  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "Arev",
-  "term_hebrew": "",
-  "english_gloss": "Guarantor",
-  "definition": "A third party (usually a family member or friend with a salary) who signs the lease. If the tenant stops paying rent, the landlord can collect from the Arev.",
-  "category": "general",
-  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "arev / arevim",
-  "term_hebrew": "ערב / ערבים",
-  "english_gloss": "",
-  "definition": "A guarantor, or guarantors. These are people (landlords commonly ask for two , usually Israeli residents) who sign a promissory note and pay your debt if you default. A signature, not cash, so it sits outside the legal deposit cap. Who can sign, what they risk, and how to push back: guarantors (arevim) for a rental .",
-  "category": "renting",
-  "source_url": "https://semerenkogroup.com/rental-glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
   "term_latin": "Arnona",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "municipal property tax, paid by whoever occupies the property.",
+  "definition": "municipal property tax charged to the legally liable holder. Possession dates, lease length, written notices and municipal records matter; contract reimbursement and municipal liability are separate questions.",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "arvut bankait",
-  "term_hebrew": "ערבות בנקאית",
-  "english_gloss": "",
-  "definition": "A bank guarantee: your bank promises to pay the landlord on demand and freezes that full amount of your own money for the lease term. Since a February 2025 reform, the fee on a deposit-backed residential guarantee up to NIS 50,000 is a flat sum of roughly NIS 250 to 410. How it works, the frozen-cash cost, and when to refuse one: the bank guarantee, explained .",
-  "category": "renting",
-  "source_url": "https://semerenkogroup.com/rental-glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "Bank Livui",
+  "term_latin": "Arnona · ארנונה",
   "term_hebrew": "",
-  "english_gloss": "Escrow Bank",
-  "definition": "When buying “on paper” (pre-construction), your money should go to a special project account managed by a bank, not directly to the developer. This guarantees your money is safe if the developer goes bankrupt.",
+  "english_gloss": "",
+  "definition": "Municipal property tax.",
   "category": "general",
   "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Azhara",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "A formal warning notice. Its service and stated deadlines require prompt attention.",
+  "category": "mortgages",
+  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Bank melaveh · בנק מלווה",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "The bank financing a project. This label alone does not establish your buyer-payment protection.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -66,7 +46,7 @@
   "definition": "for the policy rate, inflation, and mortgage rules.",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -76,7 +56,7 @@
   "definition": "the engineer inspection of a property before you buy.",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -86,7 +66,47 @@
   "definition": "the Central Bureau of Statistics, for prices, starts, and inventory.",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Chakira · חכירה",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "Leasehold rights. The agreement determines the term and conditions.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Chaniya · חניה",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "Parking. Check whether it is private, shared or merely nearby.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Chasar dira / chasrei dira",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "Without a dwelling under the relevant programme’s definition, which includes ownership-history conditions and exceptions.",
+  "category": "mortgages",
+  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Chelka · חלקה",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "A parcel within that block.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -96,37 +116,47 @@
   "definition": "a housing company that holds registration for some older buildings before title moves into Tabu.",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "chozeh sechirut",
-  "term_hebrew": "חוזה שכירות",
-  "english_gloss": "",
-  "definition": "the rental contract itself, the document everything above is named inside.",
-  "category": "renting",
-  "source_url": "https://semerenkogroup.com/rental-glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "Construction, Permits & Urban Renewal",
+  "term_latin": "Chevrat nihul · חברת ניהול",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "Tofes 4 (Occupancy Permit) The “Form 4” is the finish line. It is the official certificate from the municipality that a new building is safe, connected to utilities (water/power), and fit for habitation. Never move into a new building without Tofes 4.",
+  "definition": "A management company.",
   "category": "general",
   "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "Dud Shemesh",
+  "term_latin": "Dayar Sarvan",
   "term_hebrew": "",
-  "english_gloss": "Solar Heater",
-  "definition": "A water tank connected to solar panels on the roof. It provides free hot water during the summer. Most apartments have them (except for very tall towers).",
+  "english_gloss": "",
+  "definition": "(דייר סרבן): a refusing owner, one who will not sell their rights for a Pinui Binui deal, or attaches unreasonable conditions, after the legal special majority of owners has agreed. A court that finds the refusal unreasonable can hold the owner liable in damages to the other owners or appoint a lawyer or accountant to sign in their place.",
+  "category": "buying and ownership",
+  "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Diplomat clause",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "A negotiated early-exit clause. Its actual wording determines when it can be used.",
   "category": "general",
   "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Ezor adifut leumit",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "A national priority area designated for a particular policy or assistance programme.",
+  "category": "mortgages",
+  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -136,17 +166,27 @@
   "definition": "the national map for zoning and planning. See how to use these on evaluating a deal .",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "Gush / Chelka",
+  "term_latin": "Grirat siyua / grira",
   "term_hebrew": "",
-  "english_gloss": "Block / Parcel",
-  "definition": "Every property in Israel has an ID number used for identification.",
+  "english_gloss": "",
+  "definition": "Porting assistance or a loan to another property, subject to approval and the applicable procedure.",
+  "category": "mortgages",
+  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Gush · גוש",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "A cadastral block used to identify land.",
   "category": "general",
   "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -156,17 +196,47 @@
   "definition": "the block, parcel, and sub-parcel numbers that identify a property.",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "hatzmada la-madad",
-  "term_hebrew": "הצמדה למדד",
+  "term_latin": "Halvaa beribit mirbit",
+  "term_hebrew": "",
   "english_gloss": "",
-  "definition": "Index-linkage: the lease clause that lets your rent rise with the official price index. It is the verb form of the madad (below); if your contract has this line, your rent is not actually fixed. How to read the clause and do the maths: index-linked rent and the madad .",
-  "category": "renting",
-  "source_url": "https://semerenkogroup.com/rental-glossary/",
-  "retrieved": "2026-10-18",
+  "definition": "A maximum-interest loan category used in the ministry’s assistance procedures.",
+  "category": "mortgages",
+  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Hashhayat halich",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "Suspension of a particular enforcement step.",
+  "category": "mortgages",
+  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Hearat azhara · הערת אזהרה",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "A registered caution concerning an undertaking to make, or refrain from, a transaction. It is not ownership.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Heskem Irgun",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "(הסכם ארגון): an organising agreement that commits owners to an organiser exclusively for a limited period, before any deal with a developer. It is not the Pinui Binui or TAMA 38 deal itself, and the Urban Renewal (Agreements for Organising Transactions) Law, 2017 limits how long it lasts according to how many owners sign and how the project moves.",
+  "category": "buying and ownership",
+  "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -176,17 +246,27 @@
   "definition": "betterment levy, normally 50% of the value uplift from a planning change. See taxes .",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "Heter Bniya",
+  "term_latin": "Hetel hashbacha · היטל השבחה",
   "term_hebrew": "",
-  "english_gloss": "Building Permit",
-  "definition": "The license to build or renovate. You cannot legally close a balcony, build a pergola, or add a room without a Heter.",
+  "english_gloss": "",
+  "definition": "A planning betterment levy; different from capital-gains tax.",
   "category": "general",
   "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Heter bniya · היתר בנייה",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "A building permit for the approved work.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -196,57 +276,87 @@
   "definition": "a warning note registered on title that protects a buyer between signing and full registration.",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Hotzaa lapoal",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "The enforcement system administered by the Enforcement and Collection Authority.",
+  "category": "mortgages",
+  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Ikuv halichim",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "A stay of proceedings.",
+  "category": "mortgages",
+  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
   "term_latin": "ILA (Rami), Israel Land Authority",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "the state body that leases most land. About 93% of Israel is state land leased for 49 or 99 years; only about 7% is private freehold.",
+  "definition": "the public-land manager. Check the actual ownership or lease right, register and transfer restrictions; an ILA-managed lease is not the same thing as private freehold.",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "Ishur Ekroni",
+  "term_latin": "Ishur ekroni · אישור עקרוני",
   "term_hebrew": "",
-  "english_gloss": "Mortgage Pre-Approval",
-  "definition": "A document from the bank confirming they agree in principle to lend you X amount of money. Always get this before signing a contract.",
-  "category": "general",
-  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "Kablan",
-  "term_hebrew": "",
-  "english_gloss": "Contractor / Developer",
-  "definition": "The company building the project. When buying new, check the Kablan’s classification (Sivug) to ensure they are financially stable and experienced.",
-  "category": "general",
-  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "katz",
-  "term_hebrew": "קל\"צ (kalatz) versus ק\"צ",
   "english_gloss": "",
-  "definition": "These two sound almost identical and behave very differently. קל\"צ is fixed and not linked — the balance is a fixed number of shekels and the payment never moves. ק\"צ is fixed but CPI-linked — the interest rate is fixed, but the balance grows with inflation, so the shekel payment rises. And there is a regulatory consequence: for the Bank of Israel's track-mix rule, only קל\"צ counts as the protected fixed third. ק\"צ is counted in the variable bucket.",
+  "definition": "Preliminary bank approval, subject to its conditions and verification.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Ishur zechuyot · אישור זכויות",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "A rights approval from the authority, housing company or other relevant rights manager.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Junkers · יונקרס",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "A brand name often used for a gas water heater.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Kivunei avir · כיווני אוויר",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "The directions in which the apartment’s openings face.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Kones nechasim",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "A receiver appointed over an asset.",
   "category": "mortgages",
   "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "Kivunei Avir",
-  "term_hebrew": "",
-  "english_gloss": "Air Directions",
-  "definition": "Israelis value airflow. Properties are described by how many “directions” they have (North, South, East, West). An apartment with “3 directions” allows for cross-breeze and is worth more than one with “1 direction.”",
-  "category": "general",
-  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -256,27 +366,7 @@
   "definition": "the share a bank will lend. Caps are 75% for a first home, 70% for a replacement home, and 50% for an investor or additional property.",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "machsan",
-  "term_hebrew": "מחסן",
-  "english_gloss": "",
-  "definition": "A private storage unit, usually a small locked room in the basement, the parking level, or beside the flat. Worth confirming it is actually included and not billed as an extra. What to check when a listing promises one: the apartment viewing checklist .",
-  "category": "renting",
-  "source_url": "https://semerenkogroup.com/rental-glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "machzik",
-  "term_hebrew": "מחזיק",
-  "english_gloss": "",
-  "definition": "the occupier, the legal word that makes the tenant (not the owner) liable for arnona.",
-  "category": "renting",
-  "source_url": "https://semerenkogroup.com/rental-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -286,7 +376,27 @@
   "definition": "the consumer price index that CPI-linked loans and some contracts track.",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Madad tesumot habniya · מדד תשומות הבנייה",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "Construction Input Price Index, distinct from the Consumer Price Index.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Madad · מדד",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "An index. Check which index the contract uses, its base date and calculation.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -296,17 +406,17 @@
   "definition": "the reinforced safe room required in newer apartments.",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "marvach",
-  "term_hebrew": "מרווח Margin",
+  "term_latin": "Mamad · ממ״ד",
+  "term_hebrew": "",
   "english_gloss": "",
-  "definition": "The bank's markup over the anchor rate. This is the part that is negotiable, and where a broker earns their fee.",
-  "category": "mortgages",
-  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
+  "definition": "An apartment’s protected room.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -316,17 +426,27 @@
   "definition": "purchase tax, paid by the buyer. Most foreign and investor buyers pay 8% up to 6,055,070 NIS and 10% above. See Israel real estate taxes .",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
   "term_latin": "Mas Shevach",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "capital gains tax, 25% on the real (inflation-adjusted) gain.",
+  "definition": "tax on a property-sale gain. The applicable computation and rate depend on the seller, property, acquisition history, sale date, deductions and any exemption; it is not one fixed percentage on every sale.",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Mas shevach · מס שבח",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "Tax on taxable gain from selling a real-estate right.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -336,87 +456,67 @@
   "definition": "a mortgage. See financing and mortgages .",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Mashkanta · משכנתא",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "A mortgage over property rights; commonly also used to mean the mortgage loan.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
   "term_latin": "Ma’am",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "VAT, 18% since January 2025, charged on new-build developer sales. See VAT on Israeli property .",
+  "definition": "value-added tax. Check whether the actual transaction is taxable, the applicable tax point and the VAT-inclusive contractual price. See VAT on Israeli property .",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "Merpeset Shemesh",
-  "term_hebrew": "",
-  "english_gloss": "Sun Balcony",
-  "definition": "An open-air balcony (not enclosed with glass). In Israel, a large balcony is a major value driver.",
-  "category": "general",
-  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "miklat",
-  "term_hebrew": "מקלט",
-  "english_gloss": "",
-  "definition": "A shared or public bomb shelter, often in the basement or down the street, the fallback for older buildings that have no in-flat safe room. In the Home Front Command order of protection it ranks below a mamad and a shared-floor room. How to score a building that relies on one: the safe room and shelter check .",
-  "category": "renting",
-  "source_url": "https://semerenkogroup.com/rental-glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "Minhal",
-  "term_hebrew": "",
-  "english_gloss": "Israel Land Authority – ILA",
-  "definition": "About 90% of land in Israel is state-owned. If a property is “Minhal” (or Rameen ), you are technically acquiring a long-term lease (usually 49 or 99 years) rather than private ownership. This is very common and secure, but the bureaucratic process differs from Tabu.",
-  "category": "general",
-  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "mirpeset",
-  "term_hebrew": "מרפסת",
-  "english_gloss": "",
-  "definition": "A balcony or veranda. Common, pleasant, and occasionally counted into the floor area that drives your arnona, so check what you are paying for. Covered alongside the rest of the flat’s features at the apartment viewing checklist .",
-  "category": "renting",
-  "source_url": "https://semerenkogroup.com/rental-glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "Money, Taxes & Mortgages",
+  "term_latin": "Ma’am · מע״מ",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "Mas Rechisha (Purchase Tax) A tiered government tax paid by the buyer. Rates vary based on residency status (Israeli vs. Foreigner) and whether this is your first or second home. New Immigrants (Olim) often receive a discounted tier.",
+  "definition": "Value-added tax, or VAT.",
   "category": "general",
   "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "mortgage",
-  "term_hebrew": "משכנתא Mashkanta",
-  "english_gloss": "",
-  "definition": "The Hebrew word for a mortgage: a loan secured against a property. Israeli mashkanta is normally split into several tracks with different interest bases.",
-  "category": "mortgages",
-  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "Mosh’a",
+  "term_latin": "Merpeset sukkah · מרפסת סוכה",
   "term_hebrew": "",
-  "english_gloss": "Shared Ownership",
-  "definition": "A situation where land or a building hasn’t been legally subdivided yet. Instead of owning “Apartment 4,” you own “10% of the building.” This is common in older areas but makes getting a mortgage more complex.",
+  "english_gloss": "",
+  "definition": "A balcony advertised as suitable for a sukkah; check the actual overhead clearance and suitability.",
   "category": "general",
   "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Miklat · מקלט",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "A shelter, which may serve a building or the public.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Mosha · מושע",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "Undivided co-ownership of land; a share does not itself identify an exclusively owned physical part.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -426,7 +526,7 @@
   "definition": "the Tax Authority database of recorded transaction prices.",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -436,77 +536,47 @@
   "definition": "the title extract that shows the owner, mortgages, liens, and any warning note.",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "Nusach Tabu",
+  "term_latin": "Nesach Tabu · נסח טאבו",
   "term_hebrew": "",
-  "english_gloss": "Title Extract",
-  "definition": "The official document printed from the Tabu. It proves who owns the apartment, the exact size (in sqm), and details any mortgages or attachments to the property.",
+  "english_gloss": "",
+  "definition": "An extract showing the property’s registered rights and entries on its issue date.",
   "category": "general",
   "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "oggen",
-  "term_hebrew": "עוגן Anchor",
-  "english_gloss": "",
-  "definition": "The interest-rate base a track is built on — prime, a government bond yield, or another index. The bank adds its margin on top of the anchor.",
-  "category": "mortgages",
-  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "Optional tools.",
+  "term_latin": "Optzia · אופציה",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "Choose what you want to allow.",
-  "category": "buying and ownership",
-  "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "Optzia",
-  "term_hebrew": "",
-  "english_gloss": "Option",
-  "definition": "A clause in a rental contract that allows the tenant to extend the lease for another year (usually at the same price or a pre-agreed minimal increase). This is crucial for stability.",
+  "definition": "An option, such as a lease-renewal right, under the contract’s conditions.",
   "category": "general",
   "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "Ownership & Legal Status",
-  "term_hebrew": "",
-  "english_gloss": "",
-  "definition": "Tabu (Land Registry) The Israel Land Registry office. “Tabu” is the gold standard of ownership. A “Clean Tabu” means the property is fully registered in the seller’s name, with specific sub-parcel rights (like specific parking spots), and has no hidden liens or debts.",
-  "category": "general",
-  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "pikadon",
-  "term_hebrew": "פיקדון",
-  "english_gloss": "",
-  "definition": "Your security deposit, the cash-equivalent the landlord holds against unpaid rent or damage. By law it is capped at the lower of one-third of the total lease rent or three months rent (for any lease of nine months or more, three months rent is the binding figure), and it must come back within 60 days of the lease ending. The cap, the maths, and how to get it back: the rental security deposit .",
-  "category": "renting",
-  "source_url": "https://semerenkogroup.com/rental-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
   "term_latin": "Pinui Binui",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "evacuate and rebuild renewal, which needs two-thirds owner consent to override a refusing minority.",
+  "definition": "demolition-and-rebuilding renewal. Owner-consent thresholds, any claim concerning refusal and the court’s remedies have separate conditions; a percentage alone does not authorise overriding an owner.",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Pinui-binui · פינוי־בינוי",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "Demolition and rebuilding as an urban-renewal project.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -516,27 +586,17 @@
   "definition": "the bank prime rate, set at the Bank of Israel rate plus 1.5%.",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "Protokol Mesira",
+  "term_latin": "Protokol mesira · פרוטוקול מסירה",
   "term_hebrew": "",
-  "english_gloss": "Handover Protocol",
-  "definition": "A document signed on move-in day. It lists the condition of the apartment, furniture, and meter readings (water/electric). It protects you from being blamed for pre-existing damage when you leave.",
+  "english_gloss": "",
+  "definition": "Handover record documenting the property’s condition, defects, keys and meter readings.",
   "category": "general",
   "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "PTI",
-  "term_hebrew": "יחס החזר Repayment ratio",
-  "english_gloss": "",
-  "definition": "The share of your net monthly income that goes to loan repayments. Capped at 50%; above 40% the bank must apply a 100% risk weight, which raises the rate.",
-  "category": "mortgages",
-  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -546,27 +606,27 @@
   "definition": "this page defines the Hebrew and technical terms you meet when you buy, finance, or check an Israeli property, grouped by where they come up. Each term gets one plain line. Where a term has its own deep guide in this hub, the term links to it. For the full picture start at the Israel real estate investment hub .",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "Rental & Contract Terms",
+  "term_latin": "Rasham hahotzaa lapoal",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "Arev (Guarantor) A third party (usually a family member or friend with a salary) who signs the lease. If the tenant stops paying rent, the landlord can collect from the Arev.",
-  "category": "general",
-  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
+  "definition": "The Enforcement Registrar who decides applications in the file.",
+  "category": "mortgages",
+  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "retivut",
-  "term_hebrew": "רטיבות",
+  "term_latin": "RMI / Rami · רמ״י",
+  "term_hebrew": "",
   "english_gloss": "",
-  "definition": "Dampness held in walls, the ceiling, or the sand under the floor, showing as stains, peeling plaster or mould. Hiding it from a buyer is illegal in Israel, and as a renter it is the single defect most worth spotting at a viewing. How to find it: the building inspection checklist .",
-  "category": "renting",
-  "source_url": "https://semerenkogroup.com/rental-glossary/",
-  "retrieved": "2026-10-18",
+  "definition": "Israel Land Authority. “Minhal” is the older name often used in conversation.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -576,27 +636,77 @@
   "definition": "a licensed appraiser whose valuation the bank relies on.",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "shek bitachon",
-  "term_hebrew": "שק ביטחון",
+  "term_latin": "Shamai · שמאי",
+  "term_hebrew": "",
   "english_gloss": "",
-  "definition": "a security check, usually undated, held aside against damage and not cashed unless something goes wrong.",
-  "category": "renting",
-  "source_url": "https://semerenkogroup.com/rental-glossary/",
-  "retrieved": "2026-10-18",
+  "definition": "An appraiser who values property; not a substitute for a physical inspection.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "shtar chov",
-  "term_hebrew": "שטר חוב",
+  "term_latin": "Shtar chov · שטר חוב",
+  "term_hebrew": "",
   "english_gloss": "",
-  "definition": "a promissory note, the IOU your arevim sign so the landlord can collect a fixed sum on default.",
-  "category": "renting",
-  "source_url": "https://semerenkogroup.com/rental-glossary/",
-  "retrieved": "2026-10-18",
+  "definition": "Promissory note, sometimes required as rental security.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Sidur chaluf",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "An alternative-housing arrangement considered under the applicable enforcement rules.",
+  "category": "mortgages",
+  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Standard 21",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "(תקן 21): the appraisers’ standard for testing whether a Pinui Binui project pays. It counts the project costs, the cost of looking after the residents (guarantees, rent during construction, their advisers, a building maintenance fund) and the developer’s income from the added flats, against minimum profit rates the Government Appraiser sets by region.",
+  "category": "buying and ownership",
+  "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Taanat parati",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "A claim that an obligation has already been paid or otherwise discharged.",
+  "category": "mortgages",
+  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Taba",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "(תב”ע): a detailed plan, the legally binding document that sets land uses, building rights, the number of floors, site coverage and building lines for an area. Building under it still needs a permit.",
+  "category": "buying and ownership",
+  "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Taba · תב״ע",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "A statutory planning scheme governing matters such as permitted land use and building rights.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -606,57 +716,57 @@
   "definition": "the national land registry where ownership is recorded. See due diligence .",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
   "term_latin": "TAMA 38",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "the former national plan for seismic reinforcement, now closed to new permit applications. See urban renewal .",
+  "definition": "the national seismic-renewal framework whose expiry, local extensions and replacement arrangements require checking the actual area and application. See the TAMA 38 guide .",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "tamhil",
-  "term_hebrew": "תמהיל",
-  "english_gloss": "the mix",
-  "definition": "Your mortgage is not one loan. It is a blend of tracks, and the blend is called the tamhil . When an Israeli adviser asks what tamhil you want, they are asking how you want to divide your borrowing between prime, fixed non-linked and CPI-linked. There is no single correct answer — it depends on your income currency, your time horizon, and how much payment uncertainty you can absorb.",
-  "category": "mortgages",
-  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "Term-to-owner map",
+  "term_latin": "TAMA 38 · תמ״א 38",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "Each term routes to one page that explains it in full. Two terms can share a home page (mamad and miklat both live on the safety page, for instance) and still get their own line and link here. Read this table as the routing slip for the whole rental section.",
-  "category": "renting",
-  "source_url": "https://semerenkogroup.com/rental-glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "The Apartment: Features & Specs",
-  "term_hebrew": "",
-  "english_gloss": "",
-  "definition": "Mamad (Safe Room) Merchav Mugan Dirati. A reinforced concrete room mandatory in all buildings built after 1992. It protects against rocket attacks and earthquakes. It functions as a regular bedroom but has a heavy steel door and window.",
+  "definition": "The national earthquake-strengthening framework. Check the current local route and the specific project’s rights and approvals.",
   "category": "general",
   "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "Thirteen core terms, counted",
+  "term_latin": "Tat-chelka · תת־חלקה",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "The renting world hands you twelve money-and-safety words you cannot ignore: arnona, arev/arevim, arvut bankait, hatzmada la-madad, machsan, madad, mamad, mirpeset, miklat, pinui binui, tama 38, vaad bayit. The thirteenth, easy to miss because it hides under the guarantee words, is pikadon , the deposit itself, the parent idea that the bank guarantee and the guarantors are merely two ways to secure. That is twelve named terms plus pikadon, which earns its own line as the umbrella the deposit-and-guarantee family hangs from. Thirteen core entries in all, none padded in, none quietly missing.",
-  "category": "renting",
-  "source_url": "https://semerenkogroup.com/rental-glossary/",
-  "retrieved": "2026-10-18",
+  "definition": "The registered subparcel identifying a unit in a condominium.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Teudat zakaut",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "An eligibility certificate specifying the approved assistance and conditions.",
+  "category": "mortgages",
+  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Tochnit 10 Plus",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "A named Housing Ministry assistance programme; its current availability and conditions require checking.",
+  "category": "mortgages",
+  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -666,7 +776,17 @@
   "definition": "the occupancy permit that lets you legally move into a new build.",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Tofes 4 · טופס 4",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "A commonly used name for the building’s utility-connection/occupancy approval. Check the actual approval and conditions.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -676,17 +796,47 @@
   "definition": "the building committee that collects monthly fees and manages shared areas. See due diligence .",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "Yonkers",
+  "term_latin": "Vaad bayit · ועד בית",
   "term_hebrew": "",
-  "english_gloss": "Gas Heater",
-  "definition": "A private gas system for heating water and radiators. It provides instant hot water 24/7, essential for winters in Jerusalem or the North.",
+  "english_gloss": "",
+  "definition": "Building committee; also the common name for the building-maintenance payment.",
   "category": "general",
   "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Vaadat irurim / vaadat charigim",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "An appeals or exceptions committee.",
+  "category": "mortgages",
+  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Yazam · יזם",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "Developer or project promoter.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
+  "licence": "CC BY 4.0 (Semerenko Group text)"
+ },
+ {
+  "term_latin": "Zakaut",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "Eligibility for a particular assistance programme, subject to its conditions.",
+  "category": "mortgages",
+  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
@@ -696,207 +846,117 @@
   "definition": "a short preliminary memo that can legally bind you. Do not sign one casually. See the buying process .",
   "category": "buying and ownership",
   "source_url": "https://semerenkogroup.com/israel-real-estate-glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "",
-  "term_hebrew": "אישור עקרוני Ishur ekroni",
-  "english_gloss": "pre-approval",
-  "definition": "A bank's written indication of how much it will lend you and on what terms, issued after reviewing income and documents. It typically holds for a limited period.",
-  "category": "mortgages",
-  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "ביטוח חיים למשכנתא Mortgage life insurance",
+  "term_latin": "Zikaron devarim · זיכרון דברים",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "A decreasing life policy assigned to the bank that repays the outstanding balance if the borrower dies. Effectively required by every Israeli lender.",
-  "category": "mortgages",
-  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
+  "definition": "A memorandum of agreement that can be legally binding despite its short or preliminary form.",
+  "category": "general",
+  "source_url": "https://semerenkogroup.com/the-ultimate-israeli-real-estate-glossary-from-arnona-to-zoning/",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "בלון Balloon",
+  "term_latin": "אישור עקרוני",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "A loan where a large part of the principal is repaid at the end rather than amortised. Common in developer \"pay later\" deals; the Bank of Israel caps these at 10% of a bank's quarterly approvals.",
+  "definition": "Ishur ekroni — pre-approval",
   "category": "mortgages",
   "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "בנק ישראל Bank of Israel",
+  "term_latin": "ביטוח חיים למשכנתא",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "The central bank. Its Monetary Committee sets the policy rate, and its Supervisor of Banks sets the rules on loan-to-value, term and track mix.",
+  "definition": "Mortgage life insurance",
   "category": "mortgages",
   "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "גרייס Grace period",
+  "term_latin": "טאבו",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "A period at the start of the loan where you pay interest only, or nothing at all. It lowers early payments but increases the total cost.",
+  "definition": "Tabu — Land Registry",
   "category": "mortgages",
   "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "",
-  "term_hebrew": "הון עצמי Hon atzmi",
-  "english_gloss": "equity",
-  "definition": "Your own cash contribution. The Bank of Israel sets minimum equity through the maximum loan-to-value ceiling for each buyer type.",
-  "category": "mortgages",
-  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "",
-  "term_hebrew": "טאבו Tabu",
-  "english_gloss": "Land Registry",
-  "definition": "The Israeli land registry. The bank registers a mortgage charge against the property there, and the charge is removed once the loan is repaid.",
-  "category": "mortgages",
-  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "לוח שפיצר Spitzer schedule",
+  "term_latin": "יחס החזר",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "The standard Israeli repayment method: equal total monthly payments, with the interest share falling and the principal share rising over the term. Mathematically an annuity.",
+  "definition": "Repayment ratio (PTI)",
   "category": "mortgages",
   "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "",
-  "term_hebrew": "מדד Madad",
-  "english_gloss": "the CPI",
-  "definition": "The consumer price index published by the Central Bureau of Statistics. \"Madad-linked\" means the loan balance tracks this index.",
-  "category": "mortgages",
-  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "",
-  "term_hebrew": "מחזור משכנתא Michzur",
-  "english_gloss": "refinancing",
-  "definition": "Replacing an existing mashkanta with new terms, either with the same bank or a different one, usually to cut the rate or change the track mix.",
-  "category": "mortgages",
-  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "",
-  "term_hebrew": "מס רכישה Mas rechisha",
-  "english_gloss": "purchase tax",
-  "definition": "The tax paid on acquiring Israeli property. The rate depends on the price, whether it is your only home, and your residency status.",
-  "category": "mortgages",
-  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "משכנתא הפוכה Reverse mortgage",
+  "term_latin": "מחזור משכנתא",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "A loan against home equity for older owners, repaid when the property is sold or the owner vacates, rather than monthly.",
+  "definition": "Michzur — refinancing",
   "category": "mortgages",
   "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "",
-  "term_hebrew": "עולה חדש Oleh chadash",
-  "english_gloss": "new immigrant",
-  "definition": "A new immigrant to Israel under the Law of Return, entitled to specific purchase-tax reliefs and other benefits, including in mortgage pricing.",
-  "category": "mortgages",
-  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "עמלת פירעון מוקדם Early repayment fee",
+  "term_latin": "מס רכישה",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "A charge for paying off a fixed or linked track ahead of schedule, calculated from the gap between your rate and current market rates. Prime-linked tracks normally carry no such fee.",
+  "definition": "Mas rechisha — purchase tax",
   "category": "mortgages",
   "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "",
-  "term_hebrew": "ק\"צ Katz",
-  "english_gloss": "fixed, CPI-linked",
-  "definition": "Keren Tzmuda, \"linked principal\". A fixed interest rate, but the outstanding balance is linked to the consumer price index, so the shekel payment rises with inflation.",
-  "category": "mortgages",
-  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "",
-  "term_hebrew": "קל\"צ Kalatz",
-  "english_gloss": "fixed, not CPI-linked",
-  "definition": "Keren Lo Tzmuda, literally \"not linked principal\". A fixed interest rate that is not linked to the consumer price index. The most predictable track: the payment is set at signing and never moves.",
-  "category": "mortgages",
-  "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
-  "licence": "CC BY 4.0 (Semerenko Group text)"
- },
- {
-  "term_latin": "קרן שווה Equal principal",
+  "term_latin": "משכנתא",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "A repayment method where the principal is repaid in equal slices, so total payments start higher and decline. It costs less interest overall than Spitzer.",
+  "definition": "Mashkanta (mortgage)",
   "category": "mortgages",
   "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "ריבית פריים Prime rate",
+  "term_latin": "עולה חדש",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "The Bank of Israel policy rate plus 1.5 percentage points. Every change in the Bank of Israel rate moves prime immediately and by the same amount.",
+  "definition": "Oleh chadash — new immigrant",
   "category": "mortgages",
   "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "רפורמת השקיפות Transparency reform",
+  "term_latin": "ק\"צ",
   "term_hebrew": "",
   "english_gloss": "",
-  "definition": "Bank of Israel rules obliging banks to disclose the cost of a mortgage in a standard format, so offers can be compared like for like.",
+  "definition": "Katz: fixed, CPI-linked",
   "category": "mortgages",
   "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  },
  {
-  "term_latin": "",
-  "term_hebrew": "שמאות Shamaut",
-  "english_gloss": "appraisal",
-  "definition": "An independent valuation of the property, commissioned by the bank, that sets the ceiling for how much the bank will finance.",
+  "term_latin": "קל\"צ",
+  "term_hebrew": "",
+  "english_gloss": "",
+  "definition": "Kalatz: fixed, not CPI-linked",
   "category": "mortgages",
   "source_url": "https://semerenkogroup.com/mortgage-mashkanta-israel/glossary/",
-  "retrieved": "2026-10-18",
+  "retrieved": "2026-11-22",
   "licence": "CC BY 4.0 (Semerenko Group text)"
  }
 ]

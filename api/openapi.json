@@ -2,7 +2,7 @@
  "openapi": "3.1.0",
  "info": {
   "title": "Semerenko Group Property API",
-  "version": "2026.10.18.1",
+  "version": "2026.10.20.1",
   "summary": "Read-only JSON access to the properties and new projects Semerenko Group markets in Israel.",
   "description": "Every result carries the Semerenko Group listing URL, a visible inquiry link and the sentence \"Semerenko Group represents this property.\". Images, original source URLs and owner, landlord or agent contact details are never included. Prices are in ILS. Rooms follow the Israeli count (the living room is a room). Values the listing does not state are null or \"unknown\". Anonymous use: 60 requests a minute, 3000 a day. Usage is logged with hashed client addresses. The same data is available to AI agents through the MCP server at https://semerenkogroup.com/mcp (tools sem.search_properties, sem.get_property, sem.search_projects, sem.list_developers, sem.list_property_cities).",
   "termsOfService": "https://semerenkogroup.com/api/docs/#terms",
@@ -19,7 +19,7 @@
  "servers": [
   {
    "url": "https://semerenkogroup.com/wp-json/sg-property/v1",
-   "description": "Live, uncached. The short form https://semerenkogroup.com/api/v1/... answers with HTTP 307 to this base."
+   "description": "Live, dynamic REST base (short edge cache: 60s). The short form https://semerenkogroup.com/api/v1/... answers with HTTP 307 to this base."
   }
  ],
  "paths": {
@@ -47,9 +47,27 @@
      {
       "name": "type",
       "in": "query",
-      "description": "Property type: apartment, house, villa, penthouse, duplex, land, commercial, office, building, luxury.",
+      "description": "Property type: apartment, house, villa, penthouse, duplex, land, commercial, office, building, luxury, short-term-vacation, storage-unit, warehouse, studio, garden-apartment, mini-penthouse.",
       "schema": {
-       "type": "string"
+       "type": "string",
+       "enum": [
+        "apartment",
+        "house",
+        "villa",
+        "penthouse",
+        "duplex",
+        "land",
+        "commercial",
+        "office",
+        "building",
+        "luxury",
+        "short-term-vacation",
+        "storage-unit",
+        "warehouse",
+        "studio",
+        "garden-apartment",
+        "mini-penthouse"
+       ]
       }
      },
      {
@@ -132,7 +150,7 @@
      {
       "name": "mamad",
       "in": "query",
-      "description": "yes: only listings whose source states a safe room (mamad).",
+      "description": "yes: only listings whose source states a safe room (mamad). Silence is \"unknown\", never \"no\".",
       "schema": {
        "type": "string",
        "enum": [
@@ -165,7 +183,7 @@
      {
       "name": "furnished",
       "in": "query",
-      "description": "yes or no. Listings that say nothing are left out of both.",
+      "description": "yes or no. Listings that state neither have furnished=\"unknown\" and are left out of both.",
       "schema": {
        "type": "string",
        "enum": [
@@ -207,7 +225,7 @@
      {
       "name": "status",
       "in": "query",
-      "description": "Availability status. Only \"listed\" exists today: published and available to inquire about.",
+      "description": "Availability status. Active listings have status \"listed\" (sold/off-market listings are excluded).",
       "schema": {
        "type": "string",
        "enum": [
@@ -218,7 +236,7 @@
      {
       "name": "modified_since",
       "in": "query",
-      "description": "ISO date. Only listings changed on semerenkogroup.com since then (the closest thing to a verification date today).",
+      "description": "ISO date. Only listings changed on semerenkogroup.com since then.",
       "schema": {
        "type": "string",
        "format": "date"
@@ -235,11 +253,12 @@
      {
       "name": "sort",
       "in": "query",
-      "description": "newest (default), price_asc, price_desc, rooms.",
+      "description": "newest (default, by published_at DESC), modified (by last_modified DESC), price_asc, price_desc, rooms (null values always sort last).",
       "schema": {
        "type": "string",
        "enum": [
         "newest",
+        "modified",
         "price_asc",
         "price_desc",
         "rooms"
@@ -249,9 +268,10 @@
      {
       "name": "page",
       "in": "query",
-      "description": "Page number, from 1.",
+      "description": "Page number, from 1. Out-of-range pages return an empty results array.",
       "schema": {
-       "type": "integer"
+       "type": "integer",
+       "minimum": 1
       }
      },
      {
@@ -259,7 +279,9 @@
       "in": "query",
       "description": "Results per page, 1 to 50 (default 20).",
       "schema": {
-       "type": "integer"
+       "type": "integer",
+       "minimum": 1,
+       "maximum": 50
       }
      }
     ],
@@ -291,8 +313,28 @@
        }
       }
      },
+     "405": {
+      "description": "Method not allowed (read-only API; use GET, HEAD or OPTIONS)",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
      "429": {
       "description": "Rate limited",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Invalid query parameter",
       "content": {
        "application/json": {
         "schema": {
@@ -333,6 +375,16 @@
            "$ref": "#/components/schemas/Property"
           }
          }
+        }
+       }
+      }
+     },
+     "405": {
+      "description": "Method not allowed (read-only API; use GET, HEAD or OPTIONS)",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
         }
        }
       }
@@ -384,7 +436,7 @@
      {
       "name": "status",
       "in": "query",
-      "description": "Project status text to match (planned, permit, under construction, delivered).",
+      "description": "Project status to match: permit_pending, permit_received, under_construction, presale, planning, marketing, delivered, occupancy_recorded, unknown (for projects with null status).",
       "schema": {
        "type": "string"
       }
@@ -426,8 +478,28 @@
        }
       }
      },
+     "405": {
+      "description": "Method not allowed (read-only API; use GET, HEAD or OPTIONS)",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
      "429": {
       "description": "Rate limited",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "400": {
+      "description": "Invalid query parameter",
       "content": {
        "application/json": {
         "schema": {
@@ -472,8 +544,28 @@
        }
       }
      },
+     "405": {
+      "description": "Method not allowed (read-only API; use GET, HEAD or OPTIONS)",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
      "429": {
       "description": "Rate limited",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Not found",
       "content": {
        "application/json": {
         "schema": {
@@ -513,6 +605,16 @@
            }
           }
          }
+        }
+       }
+      }
+     },
+     "405": {
+      "description": "Method not allowed (read-only API; use GET, HEAD or OPTIONS)",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
         }
        }
       }
@@ -562,6 +664,16 @@
        }
       }
      },
+     "405": {
+      "description": "Method not allowed (read-only API; use GET, HEAD or OPTIONS)",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
      "429": {
       "description": "Rate limited",
       "content": {
@@ -578,7 +690,7 @@
   "/status": {
    "get": {
     "operationId": "status",
-    "summary": "API status, counts, limits and today's usage",
+    "summary": "API status, inventory reconciliation, limits and today's usage",
     "responses": {
      "200": {
       "description": "OK",
@@ -586,6 +698,16 @@
        "application/json": {
         "schema": {
          "type": "object"
+        }
+       }
+      }
+     },
+     "405": {
+      "description": "Method not allowed (read-only API; use GET, HEAD or OPTIONS)",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
         }
        }
       }
@@ -799,7 +921,8 @@
        "yes",
        "no",
        "unknown"
-      ]
+      ],
+      "description": "\"yes\" when furnished, \"no\" when tagged unfurnished, \"unknown\" when unstated."
      },
      "pet_friendly": {
       "type": "string",
@@ -868,7 +991,15 @@
        "null"
       ],
       "format": "date-time",
-      "description": "Null until the site records a separate verification stamp."
+      "description": "ISO-8601 timestamp when live availability was verified, or null when unverified."
+     },
+     "source_reviewed_date": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "format": "date",
+      "description": "ISO date when static developer source material was reviewed, or null."
      },
      "last_modified": {
       "type": "string",
@@ -950,13 +1081,21 @@
       "type": [
        "string",
        "null"
-      ]
+      ],
+      "description": "Dated project lifecycle; occupancy_recorded does not mean unit delivery or availability."
      },
      "stage": {
       "type": [
        "string",
        "null"
       ]
+     },
+     "municipal_evidence": {
+      "type": [
+       "object",
+       "null"
+      ],
+      "description": "Optional exact-identity municipal licensing evidence with source, checked_at and scoped records; not live unit availability verification."
      },
      "permit_status": {
       "type": [
@@ -1027,6 +1166,12 @@
       }
      },
      "last_verified": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_reviewed_date": {
       "type": [
        "string",
        "null"
@@ -1103,8 +1248,12 @@
       "type": "integer"
      },
      "market_page_url": {
-      "type": "string",
-      "format": "uri"
+      "type": [
+       "string",
+       "null"
+      ],
+      "format": "uri",
+      "description": "Canonical /location/ market page URL, or null when no dedicated location page exists."
      },
      "properties_url": {
       "type": "string",
@@ -1148,10 +1297,20 @@
        "code": {
         "type": "string"
        },
+       "parameter": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
        "message": {
         "type": "string"
        }
       }
+     },
+     "docs": {
+      "type": "string",
+      "format": "uri"
      }
     }
    }

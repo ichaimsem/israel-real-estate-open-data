@@ -3,8 +3,8 @@
  "title": "Israel real estate open data (Semerenko Group)",
  "description": "Hebrew real estate glossary, official city and region lists, aggregated recorded-sale figures, sourced market facts and the Property API specification. Built from the Semerenko Group registries without manual steps.",
  "homepage": "https://github.com/ichaimsem/israel-real-estate-open-data",
- "version": "2026-10-18",
- "created": "2026-10-18T06:20:12Z",
+ "version": "2026-11-22",
+ "created": "2026-11-22T04:50:03Z",
  "licenses": [
   {
    "name": "CC-BY-4.0",
